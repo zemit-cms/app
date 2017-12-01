@@ -1,0 +1,37 @@
+{
+  "name": "zemit-official/cms",
+  "type": "project",
+  "description": "Pilot your content with golden wings. Zemit, a content-management system built on top of PhalconPHP and AngularJS.",
+  "keywords": ["framework", "phalcon", "cms", "cms-core", "zemit", "zemit-official"],
+  "homepage": "https://www.zemit.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zemit Team",
+      "email": "contact@zemit.com",
+      "homepage": "https://www.zemit.com/team"
+    },
+    {
+      "name": "Julien Turbide",
+      "email": "contact@jturbide.com",
+      "homepage": "https://www.jturbide.com/"
+    },
+    {
+      "name": "Danny Coulombe",
+      "email": "contact@dannycoulombe.com",
+      "homepage": "https://www.dannycoulombe.com/"
+    },
+    {
+      "name": "Contributors",
+      "homepage": "https://github.com/zemit-official/cms/graphs/contributors"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/zemit-official/cms/issues",
+    "source": "https://github.com/zemit-official/cms",
+    "forum": "https://forum.zemit.com/"
+  },
+  "require": {
+    "zemit-official/cms-core": "dev-master"
+  }
+}
