@@ -1,0 +1,4 @@
+# Ignore tous les fichiers et sous-répertoire excepté le répertoire parent
+*
+*/
+!.gitignore

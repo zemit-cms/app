@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Zemit console bootstrap file
+ */
+// Set path constants
+define('ZEMIT_BASE_PATH', __DIR__);
+define('ZEMIT_VENDOR_PATH', ZEMIT_BASE_PATH.'/vendor');
+// Load Composer's autoloader
+require_once ZEMIT_VENDOR_PATH.'/autoload.php';
+// Load dotenv?
+if (file_exists(ZEMIT_BASE_PATH.'/.env')) {
+    (new Dotenv\Dotenv(ZEMIT_BASE_PATH))->load();
+}
+// Load and run Zemit
+define('ZEMIT_ENVIRONMENT', getenv('ENVIRONMENT') ?: 'production');
+$app = require ZEMIT_VENDOR_PATH.'/zemitcms/cms/bootstrap/console.php';
+$exitCode = $app->run();
+exit($exitCode);

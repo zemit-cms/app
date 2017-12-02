@@ -27,6 +27,7 @@ class Config extends PhalconConfig
                 'workfactor' => 12,
                 'salt' => '%$gn4iwgjeF>E:T45t543mfda54n'
             ),
+            'namespace' => 'Zemit',
             'modules' => array(
                 'api',
                 'frontend',
