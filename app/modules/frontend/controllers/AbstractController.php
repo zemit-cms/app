@@ -2,7 +2,7 @@
 
 namespace Zemit\Frontend\Controllers;
 
-use Zemit\Frontend\Controller;
+use Zemit\Core\Frontend\Controller;
 
 abstract class  AbstractController extends Controller {
 

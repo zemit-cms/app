@@ -4,12 +4,12 @@
   "description": "Pilot your content with golden wings. Zemit, a content-management system built on top of PhalconPHP and AngularJS.",
   "keywords": ["framework", "phalcon", "cms", "cms-core", "zemit", "zemit-official"],
   "homepage": "https://www.zemit.com",
-  "license": "MIT",
+  "license": "BSD-3-Clause",
   "authors": [
     {
       "name": "Zemit Team",
       "email": "contact@zemit.com",
-      "homepage": "https://www.zemit.com/team"
+      "homepage": "https://www.zemit.com/en/team"
     },
     {
       "name": "Julien Turbide",
@@ -33,5 +33,20 @@
   },
   "require": {
     "zemit-official/cms-core": "dev-master"
+  },
+  "extra": {
+    "installer-paths": {
+      "public/vendor/{$name}": ["zemit-official/layout-engine"]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Zemit\\": "app/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Zemit\\Test\\": "tests/unit"
+    }
   }
 }

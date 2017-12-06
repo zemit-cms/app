@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "02876e37b0d9b15549efe63a71cef455",
+    "content-hash": "c375b619f5de292d634b056bd43fd4d8",
     "packages": [
         {
             "name": "firebase/php-jwt",
@@ -164,6 +164,52 @@
             "time": "2015-11-27T10:13:36+00:00"
         },
         {
+            "name": "mustache/mustache",
+            "version": "v2.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/mustache.php.git",
+                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/fe8fe72e9d580591854de404cc59a1b83ca4d19e",
+                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~1.11",
+                "phpunit/phpunit": "~3.7|~4.0|~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mustache": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Hileman",
+                    "email": "justin@justinhileman.info",
+                    "homepage": "http://justinhileman.com"
+                }
+            ],
+            "description": "A Mustache implementation in PHP.",
+            "homepage": "https://github.com/bobthecow/mustache.php",
+            "keywords": [
+                "mustache",
+                "templating"
+            ],
+            "time": "2017-07-11T12:54:05+00:00"
+        },
+        {
             "name": "paragonie/random_compat",
             "version": "v2.0.11",
             "source": {
@@ -210,6 +256,105 @@
                 "random"
             ],
             "time": "2017-09-27T21:40:39+00:00"
+        },
+        {
+            "name": "phalcon/dd",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phalcon/dd.git",
+                "reference": "bc3b3404f2af4fa04301a7eadce2b2c6281cbad4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phalcon/dd/zipball/bc3b3404f2af4fa04301a7eadce2b2c6281cbad4",
+                "reference": "bc3b3404f2af4fa04301a7eadce2b2c6281cbad4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-phalcon": ">=3.0",
+                "php": ">= 5.4  <8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Phalcon Team",
+                    "email": "team@phalconphp.com",
+                    "homepage": "http://phalconphp.com/en/team"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/phalcon/dd/graphs/contributors"
+                }
+            ],
+            "description": "This package will add the `dd` and `dump` helpers to your Phalcon application.",
+            "homepage": "https://github.com/phalcong/dd",
+            "keywords": [
+                "VarDumper",
+                "dd",
+                "debug",
+                "dump",
+                "phalcon",
+                "utils"
+            ],
+            "time": "2017-05-06T17:11:54+00:00"
+        },
+        {
+            "name": "phalcon/ide-stubs",
+            "version": "v3.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phalcon/ide-stubs.git",
+                "reference": "8974b50d64b6767d3fa4e97023157a5571237b12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phalcon/ide-stubs/zipball/8974b50d64b6767d3fa4e97023157a5571237b12",
+                "reference": "8974b50d64b6767d3fa4e97023157a5571237b12",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Phalcon Team",
+                    "email": "team@phalconphp.com",
+                    "homepage": "https://phalconphp.com/en/team"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/phalcon/ide-stubs/graphs/contributors"
+                }
+            ],
+            "description": "The most complete Phalcon Framework IDE stubs library which enables autocompletion in modern IDEs.",
+            "homepage": "https://phalconphp.com",
+            "keywords": [
+                "Devtools",
+                "Eclipse",
+                "autocomplete",
+                "ide",
+                "netbeans",
+                "phalcon",
+                "phpstorm",
+                "stub",
+                "stubs"
+            ],
+            "time": "2017-10-22T16:52:18+00:00"
         },
         {
             "name": "phalcon/incubator",
@@ -486,25 +631,77 @@
             "time": "2017-05-01T15:54:03+00:00"
         },
         {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8 || ^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause-Attribution"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
             "name": "zemit-official/cms-core",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zemit-official/cms-core.git",
-                "reference": "487c5d9d7f28f5886e1ebf006ecfb10d88325e84"
+                "reference": "6fc57e6cb6fdbe9f597e07a955747a11dfd496e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zemit-official/cms-core/zipball/487c5d9d7f28f5886e1ebf006ecfb10d88325e84",
-                "reference": "487c5d9d7f28f5886e1ebf006ecfb10d88325e84",
+                "url": "https://api.github.com/repos/zemit-official/cms-core/zipball/6fc57e6cb6fdbe9f597e07a955747a11dfd496e3",
+                "reference": "6fc57e6cb6fdbe9f597e07a955747a11dfd496e3",
                 "shasum": ""
             },
             "require": {
                 "ext-phalcon": "~3.2",
                 "m1ome/phalcon-datatables": "^1.1",
+                "phalcon/dd": "^1.1",
                 "phalcon/incubator": "^3.2",
                 "php": ">=7.0",
-                "preferans/prest": "^3.6"
+                "preferans/prest": "^3.6",
+                "vlucas/phpdotenv": "^2.4"
             },
             "require-dev": {
                 "fabfuel/prophiler": "^1.6",
@@ -512,13 +709,10 @@
                 "phalcon/ide-stubs": "^3.2",
                 "snowair/phalcon-debugbar": "^1.2"
             },
-            "bin": [
-                "phalcon.php"
-            ],
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Zemit\\": "src/"
+                    "Zemit\\Core\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -537,13 +731,8 @@
                     "homepage": "https://www.jturbide.com/"
                 },
                 {
-                    "name": "Danny Coulombe",
-                    "email": "contact@dannycoulombe.com",
-                    "homepage": "https://www.dannycoulombe.com/"
-                },
-                {
                     "name": "Contributors",
-                    "homepage": "https://github.com/zemit-official/cms/graphs/contributors"
+                    "homepage": "https://github.com/zemit-official/cms-core/graphs/contributors"
                 }
             ],
             "description": "Pilot your content with golden wings. Zemit, a content-management system built on top of PhalconPHP and AngularJS.",
@@ -556,7 +745,7 @@
                 "zemit",
                 "zemit-official"
             ],
-            "time": "2017-12-01T23:32:19+00:00"
+            "time": "2017-12-04T03:07:41+00:00"
         }
     ],
     "packages-dev": [],
