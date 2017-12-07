@@ -7,12 +7,10 @@ version: 2
 jobs:
   build:
     docker:
-      - image: mileschou/phalcon:7.1-apache
+      - image: repox/circleci-phalcon
     working_directory: ~/zemit
     steps:
       - checkout
-      - run: apt-get install wget
-      - run: wget https://raw.githubusercontent.com/composer/getcomposer.org/1b137f8bf6db3e79a38a5bc45324414a6b1f9df2/web/installer -O - -q | php -- --quiet
       - run: composer self-update
       - restore_cache:
           keys:
