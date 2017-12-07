@@ -7,7 +7,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: docker pull mileschou/phalcon
+      - image: mileschou/phalcon
     working_directory: ~/zemit
     steps:
       - checkout
