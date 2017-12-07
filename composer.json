@@ -34,6 +34,9 @@
   "require": {
     "zemit-official/cms-core": "dev-master"
   },
+  "require-dev": {
+    "techpivot/phalcon-ci-installer": "~1.0"
+  },
   "extra": {
     "installer-paths": {
       "public/vendor/{$name}": ["zemit-official/layout-engine"]

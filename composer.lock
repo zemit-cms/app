@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c375b619f5de292d634b056bd43fd4d8",
+    "content-hash": "18347cb0d45c1b86f77830749d13cf9d",
     "packages": [
         {
             "name": "firebase/php-jwt",
@@ -256,6 +256,63 @@
                 "random"
             ],
             "time": "2017-09-27T21:40:39+00:00"
+        },
+        {
+            "name": "phalcon/breadcrumbs",
+            "version": "v1.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phalcon/breadcrumbs.git",
+                "reference": "fadf6277d4773573baccd4357f6fc60ca8f2e18d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phalcon/breadcrumbs/zipball/fadf6277d4773573baccd4357f6fc60ca8f2e18d",
+                "reference": "fadf6277d4773573baccd4357f6fc60ca8f2e18d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-phalcon": ">=2.0 <4.0",
+                "php": ">= 5.5 <7.2"
+            },
+            "require-dev": {
+                "codeception/codeception": "^2.3",
+                "codeception/specify": "^0.4",
+                "codeception/verify": "^0.3",
+                "myclabs/deep-copy": "1.6.1",
+                "phpdocumentor/reflection-docblock": "^2.0",
+                "phpunit/phpunit": "^4.8",
+                "squizlabs/php_codesniffer": "^2.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phalcon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Phalcon Team",
+                    "email": "team@phalconphp.com",
+                    "homepage": "https://phalconphp.com/en/team"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/phalcon/breadcrumbs/graphs/contributors"
+                }
+            ],
+            "description": "Powerful and flexible component for building site breadcrumbs in Phalcon 2+.",
+            "homepage": "https://github.com/phalcon/breadcrumbs",
+            "keywords": [
+                "breadcrumbs",
+                "crumbs",
+                "phalcon"
+            ],
+            "time": "2017-10-21T19:44:15+00:00"
         },
         {
             "name": "phalcon/dd",
@@ -686,18 +743,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zemit-official/cms-core.git",
-                "reference": "6fc57e6cb6fdbe9f597e07a955747a11dfd496e3"
+                "reference": "d0713ee4de5f81ceedbd97ed6bc942e821e2baee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zemit-official/cms-core/zipball/6fc57e6cb6fdbe9f597e07a955747a11dfd496e3",
-                "reference": "6fc57e6cb6fdbe9f597e07a955747a11dfd496e3",
+                "url": "https://api.github.com/repos/zemit-official/cms-core/zipball/d0713ee4de5f81ceedbd97ed6bc942e821e2baee",
+                "reference": "d0713ee4de5f81ceedbd97ed6bc942e821e2baee",
                 "shasum": ""
             },
             "require": {
                 "ext-phalcon": "~3.2",
                 "m1ome/phalcon-datatables": "^1.1",
+                "mustache/mustache": "^2.12",
+                "phalcon/breadcrumbs": "^1.3",
                 "phalcon/dd": "^1.1",
+                "phalcon/ide-stubs": "~3.2",
                 "phalcon/incubator": "^3.2",
                 "php": ">=7.0",
                 "preferans/prest": "^3.6",
@@ -745,7 +805,7 @@
                 "zemit",
                 "zemit-official"
             ],
-            "time": "2017-12-04T03:07:41+00:00"
+            "time": "2017-12-06T20:15:29+00:00"
         }
     ],
     "packages-dev": [],
