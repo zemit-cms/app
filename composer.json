@@ -35,7 +35,7 @@
     "zemit-official/cms-core": "dev-master"
   },
   "require-dev": {
-    "techpivot/phalcon-ci-installer": "~1.0"
+    "codeception/codeception": "^2.2"
   },
   "extra": {
     "installer-paths": {
