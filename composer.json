@@ -35,6 +35,8 @@
     "zemit-official/cms-core": "dev-master"
   },
   "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "phpspec/phpspec": "~2.1",
     "codeception/codeception": "^2.2"
   },
   "extra": {
