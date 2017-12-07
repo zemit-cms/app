@@ -7,11 +7,12 @@ version: 2
 jobs:
   build:
     docker:
-      - image: mileschou/phalcon
+      - image: mileschou/phalcon:7.1-apache
     working_directory: ~/zemit
     steps:
       - checkout
-      - run: sudo composer self-update
+      - run: wget https://raw.githubusercontent.com/composer/getcomposer.org/1b137f8bf6db3e79a38a5bc45324414a6b1f9df2/web/installer -O - -q | php -- --quiet
+      - run: composer self-update
       - restore_cache:
           keys:
             - composer-v1-{{ checksum "composer.json" }}
