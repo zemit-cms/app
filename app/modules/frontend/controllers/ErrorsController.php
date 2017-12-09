@@ -27,9 +27,7 @@ class ErrorsController extends AbstractController
      */
     public function indexAction()
     {
-        $this->dispatcher->forward(array(
-            'action' => 'notFound'
-        ));
+        $this->dispatcher->forward(['action' => 'notFound']);
     }
     
     /**

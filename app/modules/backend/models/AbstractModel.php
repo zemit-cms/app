@@ -4,6 +4,7 @@ namespace Zemit\Backend\Models;
 
 use Phalcon\Backend\Model;
 
-abstract class AbstractModel extends Model {
+abstract class AbstractModel extends Model
+{
 
 }

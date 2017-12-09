@@ -9,6 +9,7 @@ use Zemit\Core\Bootstrap\Services as CoreServices;
  * Extends the Zemit Core Services
  *
  */
-class Services extends CoreServices {
+class Services extends CoreServices
+{
 
 }

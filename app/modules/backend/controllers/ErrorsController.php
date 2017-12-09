@@ -7,14 +7,16 @@ namespace Zemit\Backend\Controllers;
  * @author Julien Turbide <jturbide@nuagerie.com>
  * @version 1.0.0
  */
-class ErrorsController extends AbstractController {
+class ErrorsController extends AbstractController
+{
     
     /**
      * Initilisation du contrôleur Errors
      * Prépare la vue et le layout pour les actions de ce contrôleur
      * Prépare les assets pour ce layout
      */
-    public function initialize() {
+    public function initialize()
+    {
         parent::initialize();
         $this->assets
                 ->collection('css-header-page')
@@ -27,7 +29,8 @@ class ErrorsController extends AbstractController {
      * Page d'erreur fatale - 500 Internal Server Error
      * @see ErrorsController::fatalAction();
      */
-    public function indexAction() {
+    public function indexAction()
+    {
         $this->dispatcher->forward(array(
             'action' => 'notFound'
         ));
@@ -36,42 +39,48 @@ class ErrorsController extends AbstractController {
     /**
      * Page d'erreur fatale - 500 Internal Server Error
      */
-    public function fatalAction() {
+    public function fatalAction()
+    {
         $this->response->setStatusCode(500, 'Internal Server Error');
     }
     
     /**
      * Page introuvable - 404 Not Found
      */
-    public function notFoundAction() {
+    public function notFoundAction()
+    {
         $this->response->setStatusCode(404, 'Not Found');
     }
     
     /**
      * Page inaccessible - 403 Forbidden
      */
-    public function forbiddenAction() {
+    public function forbiddenAction()
+    {
         $this->response->setStatusCode(403, 'Forbidden');
     }
     
     /**
      * Accès non autorisé - 401 Unauthorized
      */
-    public function unauthorizedAction() {
+    public function unauthorizedAction()
+    {
         $this->response->setStatusCode(401, 'Unauthorized');
     }
     
     /**
      * Mauvaise requête - 400 Bad Request
      */
-    public function badRequestAction() {
+    public function badRequestAction()
+    {
         $this->response->setStatusCode(400, 'Bad Request');
     }
     
     /**
      * Service indisponible ou maintnance en cours - 503 Service Unavailable
      */
-    public function maintenanceAction() {
+    public function maintenanceAction()
+    {
         $this->response->setStatusCode(503, 'Service Unavailable');
     }
 }
