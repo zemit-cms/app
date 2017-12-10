@@ -18,12 +18,16 @@ jobs:
             - composer-v1-
       - run: composer install -n --prefer-dist
       - run: composer update
-      - run: git clone https://github.com/mustache/spec.git vendor/mustache/mustache/vendor/spec
-      - run: git clone https://github.com/fabpot-graveyard/yaml.git vendor/mustache/mustache/vendor/yaml
+
       - save_cache:
           key: composer-v1-{{ checksum "composer.json" }}
           paths:
             - vendor
+      - run: git clone https://github.com/mustache/spec.git vendor/mustache/mustache/vendor/spec
+      - run: git clone https://github.com/fabpot-graveyard/yaml.git vendor/mustache/mustache/vendor/yaml
+      - run: php --version
+      - run: phalcon --version
+      - run: cp -aRv /tests/.env.circleci .env
       - run: vendor/bin/phpcs
       - run: vendor/bin/codecept build
       - run: vendor/bin/codecept run unit

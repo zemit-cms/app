@@ -32,15 +32,10 @@
     "forum": "https://forum.zemit.com/"
   },
   "require": {
-    "zemit-official/cms-core": "dev-master",
-    "docopt/docopt": "^1.0"
+    "zemit-official/cms-core": "^0.1"
   },
   "require-dev": {
-    "phpunit/phpunit": "^4.8",
-    "phpspec/phpspec": "~2.1",
-    "codeception/codeception": "^2.2",
-    "squizlabs/php_codesniffer": "~2.7",
-    "phalcon/dd": "^1.1"
+    "zemit-official/cms-core": "dev-master"
   },
   "extra": {
     "installer-paths": {
@@ -56,5 +51,6 @@
     "psr-4": {
       "Zemit\\Test\\": "tests/unit"
     }
-  }
+  },
+  "bin":["zemit"]
 }

@@ -31,7 +31,7 @@ extensions:
 
 # Get params from .env file
 params:
-    - .env
+    - /tests/.env.testing
 
 # Global modules configuration.
 modules:
