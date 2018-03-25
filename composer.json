@@ -29,10 +29,11 @@
   "support": {
     "issues": "https://github.com/zemit-official/cms/issues",
     "source": "https://github.com/zemit-official/cms",
+    "blog": "https://blog.zemit.com/",
     "forum": "https://forum.zemit.com/"
   },
   "require": {
-    "zemit-official/cms-core": "^0.1"
+    "zemit-official/cms-core": "dev-master"
   },
   "require-dev": {
     "zemit-official/cms-core": "dev-master"

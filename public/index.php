@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 /*
  +------------------------------------------------------------------------+
@@ -20,32 +23,29 @@ use Zemit\Bootstrap;
 /*
  * REQUIRED BOOSTRAP CONSTANTS
  * Or you can set those environment variables in your .htaccess
- *     SetEnv ROOT_PATH /
  *     SetEnv VENDOR_PATH vendor
- *     SetEnv APPLICATION_NAMESPACE Zemit
- *     SetEnv APPLICATION_PATH app
+ *     SetEnv APP_NAMESPACE Zemit
+ *     SetEnv APP_PATH /var/www/html/zemit/app/
  * Or with nginx:
- *     fastcgi_param ROOT_PATH /;
  *     fastcgi_param VENDOR_PATH vendor;
- *     fastcgi_param APPLICATION_NAMESPACE Zemit;
- *     fastcgi_param APPLICATION_PATH app;
+ *     fastcgi_param APP_NAMESPACE Zemit;
+ *     fastcgi_param APP_PATH /var/www/html/zemit/app/;
  * Or uncomment this part if you want to force those path manually
  */
-//define('ROOT_PATH', dirname(__DIR__));
+//define('APP_NAMESPACE', 'App');
+//define('APP_PATH', ROOT_PATH . '/app');
 //define('VENDOR_PATH', 'vendor');
-//define('APPLICATION_NAMESPACE', 'Zemit');
-//define('APPLICATION_PATH', 'app');
 
-// Get the root, vendor, app path and default app namespace (DO NOT TOUCH THIS PART)
-defined('ROOT_PATH') || define('ROOT_PATH', (getenv('ROOT_PATH') ? getenv('ROOT_PATH') : dirname(__DIR__)));
-defined('VENDOR_PATH') || define('VENDOR_PATH', (getenv('VENDOR_PATH') ? getenv('VENDOR_PATH') : 'vendor'));
-defined('APPLICATION_NAMESPACE') || define('APPLICATION_NAMESPACE', (getenv('APPLICATION_NAMESPACE') ? getenv('APPLICATION_NAMESPACE') : 'Zemit'));
-defined('APPLICATION_PATH') || define('APPLICATION_PATH', (getenv('APPLICATION_PATH') ? getenv('APPLICATION_PATH') : 'app'));
+// (DO NOT TOUCH THIS PART)
+// Get the fallback root, vendor, app path and default app namespace
+defined('VENDOR_PATH') || define('VENDOR_PATH', (getenv('VENDOR_PATH') ? getenv('VENDOR_PATH') : dirname(__DIR__) . '/vendor'));
+defined('APP_NAMESPACE') || define('APP_NAMESPACE', (getenv('APP_NAMESPACE') ? getenv('APP_NAMESPACE') : 'Zemit'));
+defined('APP_PATH') || define('APP_PATH', (getenv('APP_PATH') ? getenv('APP_PATH') : dirname(__DIR__) . '/app'));
 
 // Register Composer Autoloader
-$composer = require_once ROOT_PATH . '/' . VENDOR_PATH . '/autoload.php';
-$composer->addPsr4(APPLICATION_NAMESPACE . '\\', ROOT_PATH . '/' . APPLICATION_PATH . '/');
+$composer = require_once VENDOR_PATH . '/autoload.php';
+$composer->addPsr4(APP_NAMESPACE . '\\',  APP_PATH);
 
 // Run Zemit CMS
 $bootstrap = new Bootstrap();
-$bootstrap->run();
+echo $bootstrap->run();
