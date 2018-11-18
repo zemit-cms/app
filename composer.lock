@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7ff50b52636f3eb7f2128a72b00ea1a3",
+    "content-hash": "7e50cefe27826a24742949497ce78987",
     "packages": [
         {
             "name": "docopt/docopt",
@@ -51,116 +51,6 @@
                 "docs"
             ],
             "time": "2015-10-30T03:21:23+00:00"
-        },
-        {
-            "name": "firebase/php-jwt",
-            "version": "v5.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "9984a4d3a32ae7673d6971ea00bae9d0a1abba0e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
-                "reference": "9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": " 4.8.35"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Firebase\\JWT\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Neuman Vong",
-                    "email": "neuman+pear@twilio.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Anant Narayanan",
-                    "email": "anant@php.net",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
-            "homepage": "https://github.com/firebase/php-jwt",
-            "time": "2017-06-27T22:17:23+00:00"
-        },
-        {
-            "name": "league/fractal",
-            "version": "0.17.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/fractal.git",
-                "reference": "a0b350824f22fc2fdde2500ce9d6851a3f275b0e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/fractal/zipball/a0b350824f22fc2fdde2500ce9d6851a3f275b0e",
-                "reference": "a0b350824f22fc2fdde2500ce9d6851a3f275b0e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4"
-            },
-            "require-dev": {
-                "doctrine/orm": "^2.5",
-                "illuminate/contracts": "~5.0",
-                "mockery/mockery": "~0.9",
-                "pagerfanta/pagerfanta": "~1.0.0",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~1.5",
-                "zendframework/zend-paginator": "~2.3"
-            },
-            "suggest": {
-                "illuminate/pagination": "The Illuminate Pagination component.",
-                "pagerfanta/pagerfanta": "Pagerfanta Paginator",
-                "zendframework/zend-paginator": "Zend Framework Paginator"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.13-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "League\\Fractal\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Phil Sturgeon",
-                    "email": "me@philsturgeon.uk",
-                    "homepage": "http://philsturgeon.uk/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Handle the output of complex data structures ready for API output.",
-            "homepage": "http://fractal.thephpleague.com/",
-            "keywords": [
-                "api",
-                "json",
-                "league",
-                "rest"
-            ],
-            "time": "2017-06-12T11:04:56+00:00"
         },
         {
             "name": "m1ome/phalcon-datatables",
@@ -211,16 +101,16 @@
         },
         {
             "name": "moderndeveloperllc/phalconlocale",
-            "version": "1.1.0",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/moderndeveloperllc/phalconlocale.git",
-                "reference": "c49aa8c2e875b1420738ef126d0e689693a5ce1f"
+                "reference": "f4415b13fa49283f5f0cff0fa98306bf627da8dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/moderndeveloperllc/phalconlocale/get/c49aa8c2e875b1420738ef126d0e689693a5ce1f.zip",
-                "reference": "c49aa8c2e875b1420738ef126d0e689693a5ce1f",
+                "url": "https://bitbucket.org/moderndeveloperllc/phalconlocale/get/f4415b13fa49283f5f0cff0fa98306bf627da8dd.zip",
+                "reference": "f4415b13fa49283f5f0cff0fa98306bf627da8dd",
                 "shasum": ""
             },
             "require": {
@@ -252,7 +142,7 @@
                 "locale",
                 "phalcon"
             ],
-            "time": "2014-01-06T21:11:08+00:00"
+            "time": "2013-12-27T20:01:53+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -301,76 +191,28 @@
             "time": "2017-07-11T12:54:05+00:00"
         },
         {
-            "name": "paragonie/random_compat",
-            "version": "v2.0.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "5da4d3c796c275c55f057af5a643ae297d96b4d8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/5da4d3c796c275c55f057af5a643ae297d96b4d8",
-                "reference": "5da4d3c796c275c55f057af5a643ae297d96b4d8",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "4.*|5.*"
-            },
-            "suggest": {
-                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "lib/random.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Paragon Initiative Enterprises",
-                    "email": "security@paragonie.com",
-                    "homepage": "https://paragonie.com"
-                }
-            ],
-            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
-            "keywords": [
-                "csprng",
-                "pseudorandom",
-                "random"
-            ],
-            "time": "2017-09-27T21:40:39+00:00"
-        },
-        {
             "name": "phalcon/breadcrumbs",
-            "version": "v1.3.3",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phalcon/breadcrumbs.git",
-                "reference": "fadf6277d4773573baccd4357f6fc60ca8f2e18d"
+                "reference": "22179e2a1ad4aa580f98c433717f1c74a6f7d2c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phalcon/breadcrumbs/zipball/fadf6277d4773573baccd4357f6fc60ca8f2e18d",
-                "reference": "fadf6277d4773573baccd4357f6fc60ca8f2e18d",
+                "url": "https://api.github.com/repos/phalcon/breadcrumbs/zipball/22179e2a1ad4aa580f98c433717f1c74a6f7d2c3",
+                "reference": "22179e2a1ad4aa580f98c433717f1c74a6f7d2c3",
                 "shasum": ""
             },
             "require": {
                 "ext-phalcon": ">=2.0 <4.0",
-                "php": ">= 5.5 <7.2"
+                "php": ">= 5.5 <8.0"
             },
             "require-dev": {
                 "codeception/codeception": "^2.3",
                 "codeception/specify": "^0.4",
                 "codeception/verify": "^0.3",
-                "myclabs/deep-copy": "1.6.1",
+                "myclabs/deep-copy": "1.6.*",
                 "phpdocumentor/reflection-docblock": "^2.0",
                 "phpunit/phpunit": "^4.8",
                 "squizlabs/php_codesniffer": "^2.8"
@@ -403,25 +245,25 @@
                 "crumbs",
                 "phalcon"
             ],
-            "time": "2017-10-21T19:44:15+00:00"
+            "time": "2018-05-24T11:02:46+00:00"
         },
         {
             "name": "phalcon/dd",
-            "version": "v1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phalcon/dd.git",
-                "reference": "bc3b3404f2af4fa04301a7eadce2b2c6281cbad4"
+                "reference": "8d65f2e47bd62eb798b9797624c5be2461788812"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phalcon/dd/zipball/bc3b3404f2af4fa04301a7eadce2b2c6281cbad4",
-                "reference": "bc3b3404f2af4fa04301a7eadce2b2c6281cbad4",
+                "url": "https://api.github.com/repos/phalcon/dd/zipball/8d65f2e47bd62eb798b9797624c5be2461788812",
+                "reference": "8d65f2e47bd62eb798b9797624c5be2461788812",
                 "shasum": ""
             },
             "require": {
-                "ext-phalcon": ">=3.0",
-                "php": ">= 5.4  <8.0"
+                "ext-phalcon": "^3.0",
+                "php": "^5.4 || ^7.0"
             },
             "type": "library",
             "autoload": {
@@ -445,7 +287,7 @@
                 }
             ],
             "description": "This package will add the `dd` and `dump` helpers to your Phalcon application.",
-            "homepage": "https://github.com/phalcong/dd",
+            "homepage": "https://github.com/phalcon/dd",
             "keywords": [
                 "VarDumper",
                 "dd",
@@ -454,20 +296,20 @@
                 "phalcon",
                 "utils"
             ],
-            "time": "2017-05-06T17:11:54+00:00"
+            "time": "2018-08-13T05:27:52+00:00"
         },
         {
             "name": "phalcon/ide-stubs",
-            "version": "v3.2.5",
+            "version": "v3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phalcon/ide-stubs.git",
-                "reference": "8974b50d64b6767d3fa4e97023157a5571237b12"
+                "reference": "48e7920621dd2086efe39ab1d52aa9b2e1b8dca0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phalcon/ide-stubs/zipball/8974b50d64b6767d3fa4e97023157a5571237b12",
-                "reference": "8974b50d64b6767d3fa4e97023157a5571237b12",
+                "url": "https://api.github.com/repos/phalcon/ide-stubs/zipball/48e7920621dd2086efe39ab1d52aa9b2e1b8dca0",
+                "reference": "48e7920621dd2086efe39ab1d52aa9b2e1b8dca0",
                 "shasum": ""
             },
             "require": {
@@ -502,30 +344,31 @@
                 "stub",
                 "stubs"
             ],
-            "time": "2017-10-22T16:52:18+00:00"
+            "time": "2018-09-18T18:54:45+00:00"
         },
         {
             "name": "phalcon/incubator",
-            "version": "v3.2.5",
+            "version": "v3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phalcon/incubator.git",
-                "reference": "3362a5058f7b46b5da27d6905b90b4878b0a7655"
+                "reference": "6bda166c5494b6e0aa3e74edd1473b0da3e4b8da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phalcon/incubator/zipball/3362a5058f7b46b5da27d6905b90b4878b0a7655",
-                "reference": "3362a5058f7b46b5da27d6905b90b4878b0a7655",
+                "url": "https://api.github.com/repos/phalcon/incubator/zipball/6bda166c5494b6e0aa3e74edd1473b0da3e4b8da",
+                "reference": "6bda166c5494b6e0aa3e74edd1473b0da3e4b8da",
                 "shasum": ""
             },
             "require": {
-                "ext-phalcon": "^3.2",
+                "ext-phalcon": "~3.3",
                 "php": ">=5.5",
-                "swiftmailer/swiftmailer": "~5.2"
+                "swiftmailer/swiftmailer": "~5.2",
+                "twig/twig": "~1.35|~2.0"
             },
             "require-dev": {
                 "codeception/aerospike-module": "^1.0",
-                "codeception/codeception": "^2.3",
+                "codeception/codeception": "2.3.6",
                 "codeception/mockery-module": "0.2.2",
                 "codeception/specify": "^0.4",
                 "codeception/verify": "^0.3",
@@ -570,172 +413,20 @@
                 "incubator",
                 "phalcon"
             ],
-            "time": "2017-10-23T09:00:14+00:00"
-        },
-        {
-            "name": "preferans/prest",
-            "version": "v3.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/preferans/prest.git",
-                "reference": "b4a59b83bfe25c8ea4d3170d41a1b9bcda213603"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/preferans/prest/zipball/b4a59b83bfe25c8ea4d3170d41a1b9bcda213603",
-                "reference": "b4a59b83bfe25c8ea4d3170d41a1b9bcda213603",
-                "shasum": ""
-            },
-            "require": {
-                "ext-phalcon": ">=3.2.0 <4.0",
-                "firebase/php-jwt": "^5.0",
-                "league/fractal": "^0.17",
-                "php": ">=7.0 <7.2",
-                "ramsey/uuid": "^3.7"
-            },
-            "conflict": {
-                "redound/phalcon-api": "*",
-                "redound/phalcon-rest": "*"
-            },
-            "require-dev": {
-                "phpmd/phpmd": "@stable",
-                "phpstan/phpstan": "@stable",
-                "phpunit/phpunit": "@stable",
-                "squizlabs/php_codesniffer": "3.0.x-dev"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Prest\\": "src/"
-                },
-                "files": [
-                    "src/functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Olivier Andriessen",
-                    "email": "olivierandriessen@gmail.com"
-                },
-                {
-                    "name": "Bart Blok",
-                    "email": "bart@wittig.nl"
-                },
-                {
-                    "name": "Serghei Iakovlev",
-                    "email": "serghei@phalconphp.coms"
-                }
-            ],
-            "description": "A library focused on simplifying the creation of RESTful API's.",
-            "keywords": [
-                "api",
-                "framework",
-                "micro",
-                "middleware",
-                "phalcon",
-                "preferans",
-                "rest"
-            ],
-            "time": "2017-10-14T18:35:47+00:00"
-        },
-        {
-            "name": "ramsey/uuid",
-            "version": "3.7.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ramsey/uuid.git",
-                "reference": "45cffe822057a09e05f7bd09ec5fb88eeecd2334"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/45cffe822057a09e05f7bd09ec5fb88eeecd2334",
-                "reference": "45cffe822057a09e05f7bd09ec5fb88eeecd2334",
-                "shasum": ""
-            },
-            "require": {
-                "paragonie/random_compat": "^1.0|^2.0",
-                "php": "^5.4 || ^7.0"
-            },
-            "replace": {
-                "rhumsaa/uuid": "self.version"
-            },
-            "require-dev": {
-                "apigen/apigen": "^4.1",
-                "codeception/aspect-mock": "^1.0 | ^2.0",
-                "doctrine/annotations": "~1.2.0",
-                "goaop/framework": "1.0.0-alpha.2 | ^1.0 | ^2.1",
-                "ircmaxell/random-lib": "^1.1",
-                "jakub-onderka/php-parallel-lint": "^0.9.0",
-                "mockery/mockery": "^0.9.4",
-                "moontoast/math": "^1.1",
-                "php-mock/php-mock-phpunit": "^0.3|^1.1",
-                "phpunit/phpunit": "^4.7|>=5.0 <5.4",
-                "satooshi/php-coveralls": "^0.6.1",
-                "squizlabs/php_codesniffer": "^2.3"
-            },
-            "suggest": {
-                "ext-libsodium": "Provides the PECL libsodium extension for use with the SodiumRandomGenerator",
-                "ext-uuid": "Provides the PECL UUID extension for use with the PeclUuidTimeGenerator and PeclUuidRandomGenerator",
-                "ircmaxell/random-lib": "Provides RandomLib for use with the RandomLibAdapter",
-                "moontoast/math": "Provides support for converting UUID to 128-bit integer (in string form).",
-                "ramsey/uuid-console": "A console application for generating UUIDs with ramsey/uuid",
-                "ramsey/uuid-doctrine": "Allows the use of Ramsey\\Uuid\\Uuid as Doctrine field type."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Ramsey\\Uuid\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marijn Huizendveld",
-                    "email": "marijn.huizendveld@gmail.com"
-                },
-                {
-                    "name": "Thibaud Fabre",
-                    "email": "thibaud@aztech.io"
-                },
-                {
-                    "name": "Ben Ramsey",
-                    "email": "ben@benramsey.com",
-                    "homepage": "https://benramsey.com"
-                }
-            ],
-            "description": "Formerly rhumsaa/uuid. A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID).",
-            "homepage": "https://github.com/ramsey/uuid",
-            "keywords": [
-                "guid",
-                "identifier",
-                "uuid"
-            ],
-            "time": "2017-09-22T20:46:04+00:00"
+            "time": "2018-11-16T13:04:02+00:00"
         },
         {
             "name": "smarty/smarty",
-            "version": "v3.1.31",
+            "version": "v3.1.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/smarty-php/smarty.git",
-                "reference": "c7d42e4a327c402897dd587871434888fde1e7a9"
+                "reference": "dd55b23121e55a3b4f1af90a707a6c4e5969530f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/c7d42e4a327c402897dd587871434888fde1e7a9",
-                "reference": "c7d42e4a327c402897dd587871434888fde1e7a9",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/dd55b23121e55a3b4f1af90a707a6c4e5969530f",
+                "reference": "dd55b23121e55a3b4f1af90a707a6c4e5969530f",
                 "shasum": ""
             },
             "require": {
@@ -775,20 +466,20 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-12-14T21:57:25+00:00"
+            "time": "2018-09-12T20:54:16+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.8",
+            "version": "v5.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "9a06dc570a0367850280eefd3f1dc2da45aef517"
+                "reference": "181b89f18a90f8925ef805f950d47a7190e9b950"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/9a06dc570a0367850280eefd3f1dc2da45aef517",
-                "reference": "9a06dc570a0367850280eefd3f1dc2da45aef517",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/181b89f18a90f8925ef805f950d47a7190e9b950",
+                "reference": "181b89f18a90f8925ef805f950d47a7190e9b950",
                 "shasum": ""
             },
             "require": {
@@ -823,26 +514,84 @@
                 }
             ],
             "description": "Swiftmailer, free feature-rich PHP mailer",
-            "homepage": "http://swiftmailer.org",
+            "homepage": "https://swiftmailer.symfony.com",
             "keywords": [
                 "email",
                 "mail",
                 "mailer"
             ],
-            "time": "2017-05-01T15:54:03+00:00"
+            "time": "2018-07-31T09:26:32+00:00"
         },
         {
-            "name": "symfony/polyfill-mbstring",
-            "version": "v1.6.0",
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296"
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
-                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e3d826245268269cd66f8326bd8bc066687b4a19",
+                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                },
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2018-08-06T14:22:27+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/c79c051f5b3a46be09205c73b80b346e4153e494",
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494",
                 "shasum": ""
             },
             "require": {
@@ -854,7 +603,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6-dev"
+                    "dev-master": "1.9-dev"
                 }
             },
             "autoload": {
@@ -888,35 +637,36 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-10-11T12:05:26+00:00"
+            "time": "2018-09-21T13:07:52+00:00"
         },
         {
             "name": "twig/twig",
-            "version": "v2.4.4",
+            "version": "v2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "eddb97148ad779f27e670e1e3f19fb323aedafeb"
+                "reference": "6a5f676b77a90823c2d4eaf76137b771adf31323"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/eddb97148ad779f27e670e1e3f19fb323aedafeb",
-                "reference": "eddb97148ad779f27e670e1e3f19fb323aedafeb",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/6a5f676b77a90823c2d4eaf76137b771adf31323",
+                "reference": "6a5f676b77a90823c2d4eaf76137b771adf31323",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.0",
+                "symfony/polyfill-ctype": "^1.8",
                 "symfony/polyfill-mbstring": "~1.0"
             },
             "require-dev": {
                 "psr/container": "^1.0",
-                "symfony/debug": "~2.7",
-                "symfony/phpunit-bridge": "~3.3@dev"
+                "symfony/debug": "^2.7",
+                "symfony/phpunit-bridge": "^3.3"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.5-dev"
                 }
             },
             "autoload": {
@@ -945,41 +695,41 @@
                 },
                 {
                     "name": "Twig Team",
-                    "homepage": "http://twig.sensiolabs.org/contributors",
+                    "homepage": "https://twig.symfony.com/contributors",
                     "role": "Contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
-            "homepage": "http://twig.sensiolabs.org",
+            "homepage": "https://twig.symfony.com",
             "keywords": [
                 "templating"
             ],
-            "time": "2017-09-27T18:10:31+00:00"
+            "time": "2018-07-13T07:18:09+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.4.0",
+            "version": "v2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
+                "reference": "8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
-                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e",
+                "reference": "8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8 || ^5.0"
+                "phpunit/phpunit": "^4.8.35 || ^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.5-dev"
                 }
             },
             "autoload": {
@@ -989,7 +739,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-3-Clause-Attribution"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -1004,33 +754,33 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01T10:05:43+00:00"
+            "time": "2018-07-29T20:33:41+00:00"
         },
         {
             "name": "zemit-official/cms-core",
-            "version": "dev-master",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zemit-official/cms-core.git",
-                "reference": "5cc27b4e0a404e123897ca49f1e6e8efa899020d"
+                "reference": "99b57086429f1ec239e4a999505db5787be3255d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zemit-official/cms-core/zipball/5cc27b4e0a404e123897ca49f1e6e8efa899020d",
-                "reference": "5cc27b4e0a404e123897ca49f1e6e8efa899020d",
+                "url": "https://api.github.com/repos/zemit-official/cms-core/zipball/99b57086429f1ec239e4a999505db5787be3255d",
+                "reference": "99b57086429f1ec239e4a999505db5787be3255d",
                 "shasum": ""
             },
             "require": {
                 "docopt/docopt": "~1.0",
                 "ext-phalcon": "~3.2",
                 "m1ome/phalcon-datatables": "^1.1",
+                "moderndeveloperllc/phalconlocale": "1.0.*",
                 "mustache/mustache": "^2.12",
                 "phalcon/breadcrumbs": "^1.3",
                 "phalcon/dd": "^1.1",
                 "phalcon/ide-stubs": "~3.2",
                 "phalcon/incubator": "^3.2",
                 "php": ">=7.0",
-                "preferans/prest": "^3.6",
                 "smarty/smarty": "^3.1",
                 "twig/twig": "^2.4",
                 "vlucas/phpdotenv": "^2.4"
@@ -1082,15 +832,13 @@
                 "zemit",
                 "zemit-official"
             ],
-            "time": "2017-12-18T22:51:57+00:00"
+            "time": "2018-11-18T20:30:02+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "zemit-official/cms-core": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
