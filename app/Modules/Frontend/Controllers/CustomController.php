@@ -1,6 +1,6 @@
 <?php
 
-namespace Zemit\Frontend\Controllers;
+namespace App\Frontend\Controllers;
 
 class CustomController extends AbstractController
 {

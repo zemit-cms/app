@@ -1,8 +1,8 @@
 <?php
 
-namespace Zemit\Frontend\Controllers;
+namespace App\Frontend\Controllers;
 
-use Zemit\Core\Frontend\Controllers\AbstractController as CoreController;
+use Zemit\Modules\Frontend\Controllers\AbstractController as CoreController;
 
 abstract class AbstractController extends CoreController
 {

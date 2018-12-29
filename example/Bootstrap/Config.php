@@ -2,7 +2,7 @@
 
 namespace Example\Bootstrap;
 
-use Zemit\Core\Bootstrap\Config as CoreConfig;
+use Zemit\Bootstrap\Config as CoreConfig;
 use Phalcon\Config as PhalconConfig;
 
 class Config extends CoreConfig

@@ -2,7 +2,7 @@
 
 namespace Example\Bootstrap;
 
-use Zemit\Core\Bootstrap\Modules as CoreModules;
+use Zemit\Bootstrap\Modules as CoreModules;
 
 class Modules extends CoreModules
 {

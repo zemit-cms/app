@@ -1,10 +1,8 @@
 <?php
 
-namespace Zemit\Frontend;
+namespace App\Frontend;
 
-use Zemit\Core\Frontend\Module as CoreModule;
-
-class Module extends CoreModule
+class Module extends \Zemit\Modules\Frontend\Module
 {
 
 }

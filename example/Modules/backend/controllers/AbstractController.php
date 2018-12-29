@@ -2,7 +2,7 @@
 
 namespace Example\Backend\Controllers;
 
-use Zemit\Core\Backend\Controller;
+use Zemit\Backend\Controller;
 
 abstract class AbstractController extends Controller
 {

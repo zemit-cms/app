@@ -1,10 +1,8 @@
 <?php
 
-namespace Zemit\Bootstrap;
+namespace App\Bootstrap;
 
-use Zemit\Core\Bootstrap\Router as CoreRouter;
-
-class Router extends CoreRouter
+class Router extends \Zemit\Bootstrap\Router
 {
 
 }

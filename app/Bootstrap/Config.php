@@ -1,11 +1,10 @@
 <?php
 
-namespace Zemit\Bootstrap;
+namespace App\Bootstrap;
 
-use Zemit\Core\Bootstrap\Config as CoreConfig;
 use Phalcon\Config as PhalconConfig;
 
-class Config extends CoreConfig
+class Config extends \Zemit\Bootstrap\Config
 {
     public function __construct($config = array())
     {

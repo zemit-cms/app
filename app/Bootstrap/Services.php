@@ -1,15 +1,13 @@
 <?php
 
-namespace Zemit\Bootstrap;
-
-use Zemit\Core\Bootstrap\Services as CoreServices;
+namespace App\Bootstrap;
 
 /**
  * Class Services
  * Extends the Zemit Core Services
  *
  */
-class Services extends CoreServices
+class Services extends \Zemit\Bootstrap\Services
 {
 
 }

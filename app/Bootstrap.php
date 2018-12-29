@@ -1,13 +1,12 @@
 <?php
 
-namespace Zemit;
+namespace App;
 
-use Zemit\Bootstrap\Config;
-use Zemit\Bootstrap\Router;
-use Zemit\Bootstrap\Services;
-use Zemit\Core\Bootstrap as CoreBootstrap;
+use App\Bootstrap\Config;
+use App\Bootstrap\Router;
+use App\Bootstrap\Services;
 
-class Bootstrap extends CoreBootstrap
+class Bootstrap extends \Zemit\Bootstrap
 {
     public $config = Config::class;
     public $router = Router::class;

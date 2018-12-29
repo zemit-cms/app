@@ -2,7 +2,7 @@
 
 namespace Example\Bootstrap;
 
-use Zemit\Core\Bootstrap\Services as CoreServices;
+use Zemit\Bootstrap\Services as CoreServices;
 
 /**
  * Class Services

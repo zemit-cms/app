@@ -2,7 +2,7 @@
 
 namespace Example\Backend;
 
-use Zemit\Core\Backend\Module as CoreModule;
+use Zemit\Backend\Module as CoreModule;
 
 class Module extends CoreModule
 {

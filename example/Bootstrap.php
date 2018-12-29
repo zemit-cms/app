@@ -4,7 +4,7 @@ namespace Zemit;
 
 use Phalcon\Events\Event;
 use Phalcon\Events\Manager as EventsManager;
-use Zemit\Core\Bootstrap as CoreBootstrap;
+use Zemit\Bootstrap as CoreBootstrap;
 use Zemit\Bootstrap\Config;
 
 class Bootstrap extends CoreBootstrap
