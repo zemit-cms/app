@@ -1,9 +1,19 @@
 <?php
+/**
+ * This file is part of the Zemit Framework.
+ *
+ * (c) Zemit Team <contact@zemit.com>
+ *
+ * For the full copyright and license information, please view the LICENSE.txt
+ * file that was distributed with this source code.
+ */
 
 namespace App\Bootstrap;
 
-use Phalcon\Config as PhalconConfig;
-
+/**
+ * Class Config
+ * @package App\Bootstrap
+ */
 class Config extends \Zemit\Bootstrap\Config
 {
     public function __construct($config = array())
@@ -15,9 +25,14 @@ class Config extends \Zemit\Bootstrap\Config
                     'path' => APP_PATH . '/Modules/Frontend/Module.php'
                 ],
             ),
+            'bootstrap' => [
+                'config' => Config::class,
+                'router' => Router::class,
+                'service' => Services::class,
+            ],
         ));
         if (!empty($config)) {
-            $this->merge(new PhalconConfig($config));
+            $this->merge(new \Phalcon\Config($config));
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "name": "zemit-official/app",
   "type": "project",
-  "description": "Pilot your content with golden wings. Zemit, a content-management system built on top of Phalcon (PHP) and Angular (TypeScript).",
-  "keywords": ["framework", "phalcon", "cms", "cms-core", "zemit", "zemit-official"],
+  "description": "Zemit App is our default project to start from, this package includes the backend (Zemit Core) and the frontend (Zemit Workspace) with our SDKs..",
+  "keywords": ["framework", "phalcon", "cms", "app", "core", "zemit", "zemit-official"],
   "homepage": "https://www.zemit.com",
   "license": "BSD-3-Clause",
   "authors": [
@@ -23,25 +23,25 @@
     },
     {
       "name": "Contributors",
-      "homepage": "https://github.com/zemit-official/cms/graphs/contributors"
+      "homepage": "https://github.com/zemit-official/app/graphs/contributors"
     }
   ],
   "support": {
-    "issues": "https://github.com/zemit-official/cms/issues",
-    "source": "https://github.com/zemit-official/cms",
+    "issues": "https://github.com/zemit-official/app/issues",
+    "source": "https://github.com/zemit-official/app",
     "blog": "https://blog.zemit.com/",
     "forum": "https://forum.zemit.com/"
   },
   "require": {
-    "zemit-official/cms-core": "dev-master"
+    "zemit-official/core": "dev-master"
   },
   "require-dev": {
-    "zemit-official/cms-core": "dev-master"
+    "zemit-official/core": "dev-master"
   },
   "extra": {
     "installer-paths": {
       "public/vendor/{$name}": [
-        "zemit-official/layout-engine"
+        "zemit-official/workspace"
       ]
     }
   },
