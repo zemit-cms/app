@@ -30,7 +30,7 @@ use Zemit\Bootstrap;
  *     fastcgi_param VENDOR_PATH vendor;
  *     fastcgi_param APP_NAMESPACE Zemit;
  *     fastcgi_param APP_PATH /var/www/html/zemit/app/;
- * Or uncomment this part if you want to force those path manually
+ * Or uncomment this part below if you want to force those path manually
  */
 //define('APP_NAMESPACE', 'App');
 //define('APP_PATH', ROOT_PATH . '/app');
@@ -39,7 +39,7 @@ use Zemit\Bootstrap;
 // (DO NOT TOUCH THIS PART)
 // Get the fallback root, vendor, app path and default app namespace
 defined('VENDOR_PATH') || define('VENDOR_PATH', (getenv('VENDOR_PATH') ? getenv('VENDOR_PATH') : dirname(__DIR__) . '/vendor'));
-defined('APP_NAMESPACE') || define('APP_NAMESPACE', (getenv('APP_NAMESPACE') ? getenv('APP_NAMESPACE') : 'Zemit'));
+defined('APP_NAMESPACE') || define('APP_NAMESPACE', (getenv('APP_NAMESPACE') ? getenv('APP_NAMESPACE') : 'App'));
 defined('APP_PATH') || define('APP_PATH', (getenv('APP_PATH') ? getenv('APP_PATH') : dirname(__DIR__) . '/app'));
 
 // Register Composer Autoloader

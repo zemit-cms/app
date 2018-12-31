@@ -40,7 +40,9 @@
   },
   "extra": {
     "installer-paths": {
-      "public/vendor/{$name}": ["zemit-official/layout-engine"]
+      "public/vendor/{$name}": [
+        "zemit-official/layout-engine"
+      ]
     }
   },
   "autoload": {

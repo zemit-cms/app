@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7e50cefe27826a24742949497ce78987",
+    "content-hash": "5e56642a30f41f93d67055e975e5ee20",
     "packages": [
         {
             "name": "docopt/docopt",
@@ -53,32 +53,41 @@
             "time": "2015-10-30T03:21:23+00:00"
         },
         {
-            "name": "m1ome/phalcon-datatables",
-            "version": "1.1.7",
+            "name": "filp/whoops",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/m1ome/phalcon-datatables.git",
-                "reference": "dfa67667557cb8464b4917bfe2856adb3a0380e4"
+                "url": "https://github.com/filp/whoops.git",
+                "reference": "bc0fd11bc455cc20ee4b5edabc63ebbf859324c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/m1ome/phalcon-datatables/zipball/dfa67667557cb8464b4917bfe2856adb3a0380e4",
-                "reference": "dfa67667557cb8464b4917bfe2856adb3a0380e4",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/bc0fd11bc455cc20ee4b5edabc63ebbf859324c7",
+                "reference": "bc0fd11bc455cc20ee4b5edabc63ebbf859324c7",
                 "shasum": ""
             },
+            "require": {
+                "php": "^5.5.9 || ^7.0",
+                "psr/log": "^1.0.1"
+            },
             "require-dev": {
-                "crysalead/kahlan": "~1.1",
-                "fzaninotto/faker": "1.5.*@dev"
+                "mockery/mockery": "^0.9 || ^1.0",
+                "phpunit/phpunit": "^4.8.35 || ^5.7",
+                "symfony/var-dumper": "^2.6 || ^3.0 || ^4.0"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
+                "whoops/soap": "Formats errors as SOAP responses"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev_master": "1.0-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "DataTables\\": "src/"
+                    "Whoops\\": "src/Whoops/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -87,62 +96,22 @@
             ],
             "authors": [
                 {
-                    "name": "Pavel Makarenko",
-                    "email": "cryfall@gmail.com"
+                    "name": "Filipe Dobreira",
+                    "homepage": "https://github.com/filp",
+                    "role": "Developer"
                 }
             ],
-            "description": "DataTables adapter for Phalcon Framework",
+            "description": "php error handling for cool kids",
+            "homepage": "https://filp.github.io/whoops/",
             "keywords": [
-                "datatables",
-                "phalcon",
-                "plugin"
+                "error",
+                "exception",
+                "handling",
+                "library",
+                "throwable",
+                "whoops"
             ],
-            "time": "2015-11-27T10:13:36+00:00"
-        },
-        {
-            "name": "moderndeveloperllc/phalconlocale",
-            "version": "1.0",
-            "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/moderndeveloperllc/phalconlocale.git",
-                "reference": "f4415b13fa49283f5f0cff0fa98306bf627da8dd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/moderndeveloperllc/phalconlocale/get/f4415b13fa49283f5f0cff0fa98306bf627da8dd.zip",
-                "reference": "f4415b13fa49283f5f0cff0fa98306bf627da8dd",
-                "shasum": ""
-            },
-            "require": {
-                "ext-phalcon": ">=1.2.4",
-                "php": ">=5.3.6"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "ModDev\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3"
-            ],
-            "authors": [
-                {
-                    "name": "Mark Garrett",
-                    "email": "mark@moderndeveloperllc.com"
-                }
-            ],
-            "description": "Class to determine client locale within Phalcon framework. Also provides locale-based redirection",
-            "homepage": "https://bitbucket.org/moderndeveloperllc",
-            "keywords": [
-                "framework",
-                "i18n",
-                "l10n",
-                "locale",
-                "phalcon"
-            ],
-            "time": "2013-12-27T20:01:53+00:00"
+            "time": "2018-10-23T09:00:00+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -191,229 +160,51 @@
             "time": "2017-07-11T12:54:05+00:00"
         },
         {
-            "name": "phalcon/breadcrumbs",
-            "version": "v1.4.0",
+            "name": "psr/log",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phalcon/breadcrumbs.git",
-                "reference": "22179e2a1ad4aa580f98c433717f1c74a6f7d2c3"
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phalcon/breadcrumbs/zipball/22179e2a1ad4aa580f98c433717f1c74a6f7d2c3",
-                "reference": "22179e2a1ad4aa580f98c433717f1c74a6f7d2c3",
-                "shasum": ""
-            },
-            "require": {
-                "ext-phalcon": ">=2.0 <4.0",
-                "php": ">= 5.5 <8.0"
-            },
-            "require-dev": {
-                "codeception/codeception": "^2.3",
-                "codeception/specify": "^0.4",
-                "codeception/verify": "^0.3",
-                "myclabs/deep-copy": "1.6.*",
-                "phpdocumentor/reflection-docblock": "^2.0",
-                "phpunit/phpunit": "^4.8",
-                "squizlabs/php_codesniffer": "^2.8"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Phalcon\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Phalcon Team",
-                    "email": "team@phalconphp.com",
-                    "homepage": "https://phalconphp.com/en/team"
-                },
-                {
-                    "name": "Contributors",
-                    "homepage": "https://github.com/phalcon/breadcrumbs/graphs/contributors"
-                }
-            ],
-            "description": "Powerful and flexible component for building site breadcrumbs in Phalcon 2+.",
-            "homepage": "https://github.com/phalcon/breadcrumbs",
-            "keywords": [
-                "breadcrumbs",
-                "crumbs",
-                "phalcon"
-            ],
-            "time": "2018-05-24T11:02:46+00:00"
-        },
-        {
-            "name": "phalcon/dd",
-            "version": "1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phalcon/dd.git",
-                "reference": "8d65f2e47bd62eb798b9797624c5be2461788812"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phalcon/dd/zipball/8d65f2e47bd62eb798b9797624c5be2461788812",
-                "reference": "8d65f2e47bd62eb798b9797624c5be2461788812",
-                "shasum": ""
-            },
-            "require": {
-                "ext-phalcon": "^3.0",
-                "php": "^5.4 || ^7.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/helper.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Phalcon Team",
-                    "email": "team@phalconphp.com",
-                    "homepage": "http://phalconphp.com/en/team"
-                },
-                {
-                    "name": "Contributors",
-                    "homepage": "https://github.com/phalcon/dd/graphs/contributors"
-                }
-            ],
-            "description": "This package will add the `dd` and `dump` helpers to your Phalcon application.",
-            "homepage": "https://github.com/phalcon/dd",
-            "keywords": [
-                "VarDumper",
-                "dd",
-                "debug",
-                "dump",
-                "phalcon",
-                "utils"
-            ],
-            "time": "2018-08-13T05:27:52+00:00"
-        },
-        {
-            "name": "phalcon/ide-stubs",
-            "version": "v3.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phalcon/ide-stubs.git",
-                "reference": "48e7920621dd2086efe39ab1d52aa9b2e1b8dca0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phalcon/ide-stubs/zipball/48e7920621dd2086efe39ab1d52aa9b2e1b8dca0",
-                "reference": "48e7920621dd2086efe39ab1d52aa9b2e1b8dca0",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
             "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Phalcon Team",
-                    "email": "team@phalconphp.com",
-                    "homepage": "https://phalconphp.com/en/team"
-                },
-                {
-                    "name": "Contributors",
-                    "homepage": "https://github.com/phalcon/ide-stubs/graphs/contributors"
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
                 }
-            ],
-            "description": "The most complete Phalcon Framework IDE stubs library which enables autocompletion in modern IDEs.",
-            "homepage": "https://phalconphp.com",
-            "keywords": [
-                "Devtools",
-                "Eclipse",
-                "autocomplete",
-                "ide",
-                "netbeans",
-                "phalcon",
-                "phpstorm",
-                "stub",
-                "stubs"
-            ],
-            "time": "2018-09-18T18:54:45+00:00"
-        },
-        {
-            "name": "phalcon/incubator",
-            "version": "v3.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phalcon/incubator.git",
-                "reference": "6bda166c5494b6e0aa3e74edd1473b0da3e4b8da"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phalcon/incubator/zipball/6bda166c5494b6e0aa3e74edd1473b0da3e4b8da",
-                "reference": "6bda166c5494b6e0aa3e74edd1473b0da3e4b8da",
-                "shasum": ""
-            },
-            "require": {
-                "ext-phalcon": "~3.3",
-                "php": ">=5.5",
-                "swiftmailer/swiftmailer": "~5.2",
-                "twig/twig": "~1.35|~2.0"
-            },
-            "require-dev": {
-                "codeception/aerospike-module": "^1.0",
-                "codeception/codeception": "2.3.6",
-                "codeception/mockery-module": "0.2.2",
-                "codeception/specify": "^0.4",
-                "codeception/verify": "^0.3",
-                "doctrine/instantiator": "1.0.5",
-                "phalcon/dd": "^1.1",
-                "phpdocumentor/reflection-docblock": "2.0.4",
-                "phpunit/phpunit": "^4.8",
-                "squizlabs/php_codesniffer": "^2.9",
-                "vlucas/phpdotenv": "^2.4"
-            },
-            "suggest": {
-                "duncan3dc/fork-helper": "To use extended class to access the beanstalk queue service",
-                "ext-aerospike": "*",
-                "phalcon/ide-stubs": "Phalcon IDE Stubs",
-                "sergeyklay/aerospike-php-stubs": "The most complete Aerospike PHP stubs which allows autocomplete in modern IDEs"
-            },
-            "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Phalcon\\": "Library/Phalcon/"
+                    "Psr\\Log\\": "Psr/Log/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-3-Clause"
+                "MIT"
             ],
             "authors": [
                 {
-                    "name": "Phalcon Team",
-                    "email": "team@phalconphp.com",
-                    "homepage": "https://phalconphp.com/en/team"
-                },
-                {
-                    "name": "Contributors",
-                    "homepage": "https://github.com/phalcon/incubator/graphs/contributors"
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
                 }
             ],
-            "description": "Adapters, prototypes or functionality that can be potentially incorporated to the C-framework.",
-            "homepage": "https://phalconphp.com",
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
             "keywords": [
-                "framework",
-                "incubator",
-                "phalcon"
+                "log",
+                "psr",
+                "psr-3"
             ],
-            "time": "2018-11-16T13:04:02+00:00"
+            "time": "2018-11-20T15:27:04+00:00"
         },
         {
             "name": "smarty/smarty",
@@ -467,60 +258,6 @@
                 "templating"
             ],
             "time": "2018-09-12T20:54:16+00:00"
-        },
-        {
-            "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.12",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "181b89f18a90f8925ef805f950d47a7190e9b950"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/181b89f18a90f8925ef805f950d47a7190e9b950",
-                "reference": "181b89f18a90f8925ef805f950d47a7190e9b950",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "mockery/mockery": "~0.9.1",
-                "symfony/phpunit-bridge": "~3.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.4-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "lib/swift_required.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Chris Corbyn"
-                },
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                }
-            ],
-            "description": "Swiftmailer, free feature-rich PHP mailer",
-            "homepage": "https://swiftmailer.symfony.com",
-            "keywords": [
-                "email",
-                "mail",
-                "mailer"
-            ],
-            "time": "2018-07-31T09:26:32+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -641,32 +378,32 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.5.0",
+            "version": "v2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "6a5f676b77a90823c2d4eaf76137b771adf31323"
+                "reference": "a11dd39f5b6589e14f0ff3b36675d06047c589b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/6a5f676b77a90823c2d4eaf76137b771adf31323",
-                "reference": "6a5f676b77a90823c2d4eaf76137b771adf31323",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/a11dd39f5b6589e14f0ff3b36675d06047c589b1",
+                "reference": "a11dd39f5b6589e14f0ff3b36675d06047c589b1",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.0",
                 "symfony/polyfill-ctype": "^1.8",
-                "symfony/polyfill-mbstring": "~1.0"
+                "symfony/polyfill-mbstring": "^1.3"
             },
             "require-dev": {
                 "psr/container": "^1.0",
                 "symfony/debug": "^2.7",
-                "symfony/phpunit-bridge": "^3.3"
+                "symfony/phpunit-bridge": "^3.4.19|^4.1.8"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev"
+                    "dev-master": "2.6-dev"
                 }
             },
             "autoload": {
@@ -704,7 +441,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2018-07-13T07:18:09+00:00"
+            "time": "2018-12-16T10:36:48+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -758,29 +495,24 @@
         },
         {
             "name": "zemit-official/cms-core",
-            "version": "0.1.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zemit-official/cms-core.git",
-                "reference": "99b57086429f1ec239e4a999505db5787be3255d"
+                "reference": "74119e4037baba022e3a75eddb5dad32099add29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zemit-official/cms-core/zipball/99b57086429f1ec239e4a999505db5787be3255d",
-                "reference": "99b57086429f1ec239e4a999505db5787be3255d",
+                "url": "https://api.github.com/repos/zemit-official/cms-core/zipball/74119e4037baba022e3a75eddb5dad32099add29",
+                "reference": "74119e4037baba022e3a75eddb5dad32099add29",
                 "shasum": ""
             },
             "require": {
                 "docopt/docopt": "~1.0",
-                "ext-phalcon": "~3.2",
-                "m1ome/phalcon-datatables": "^1.1",
-                "moderndeveloperllc/phalconlocale": "1.0.*",
+                "ext-phalcon": "~4.0",
+                "filp/whoops": "^2.3",
                 "mustache/mustache": "^2.12",
-                "phalcon/breadcrumbs": "^1.3",
-                "phalcon/dd": "^1.1",
-                "phalcon/ide-stubs": "~3.2",
-                "phalcon/incubator": "^3.2",
-                "php": ">=7.0",
+                "php": ">=7.2",
                 "smarty/smarty": "^3.1",
                 "twig/twig": "^2.4",
                 "vlucas/phpdotenv": "^2.4"
@@ -789,8 +521,7 @@
                 "codeception/codeception": "^2.2",
                 "fabfuel/prophiler": "^1.6",
                 "mockery/mockery": "^1.0",
-                "phalcon/devtools": "^3.2",
-                "phalcon/ide-stubs": "^3.2",
+                "phalcon/ide-stubs": "dev-master",
                 "phpspec/phpspec": "~2.1",
                 "phpunit/phpunit": "^4.8",
                 "snowair/phalcon-debugbar": "^1.2",
@@ -800,7 +531,10 @@
             "autoload": {
                 "psr-4": {
                     "Zemit\\": "src/"
-                }
+                },
+                "files": [
+                    "src/Helper.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -832,13 +566,15 @@
                 "zemit",
                 "zemit-official"
             ],
-            "time": "2018-11-18T20:30:02+00:00"
+            "time": "2018-12-29T09:17:43+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "zemit-official/cms-core": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
