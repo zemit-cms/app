@@ -1,11 +1,11 @@
 # Zemit App
 
-[![Travis Build Status](https://secure.travis-ci.org/zemit-official/cms.png)](http://travis-ci.org/zemit-official/cms?branch=master)
-[![CircleCI Build Status](https://circleci.com/gh/zemit-official/cms.png)](https://circleci.com/gh/zemit-official/cms)
-[![Coverage Status](https://coveralls.io/repos/zemit-official/cms/badge.png)](https://coveralls.io/r/zemit-official/cms)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/zemit-official/cms/badges/quality-score.png)](https://scrutinizer-ci.com/g/zemit-official/cms/)
-[![Latest Stable Version](https://poser.pugx.org/zemit-official/cms/v/stable.png)](https://packagist.org/packages/zemit-official/cms)
-[![Total Downloads](https://poser.pugx.org/zemit-official/cms/downloads.png)](https://packagist.org/packages/zemit-official/cms)
+[![Travis Build Status](https://secure.travis-ci.org/zemit-cms/cms.png)](http://travis-ci.org/zemit-cms/cms?branch=master)
+[![CircleCI Build Status](https://circleci.com/gh/zemit-cms/cms.png)](https://circleci.com/gh/zemit-cms/cms)
+[![Coverage Status](https://coveralls.io/repos/zemit-cms/cms/badge.png)](https://coveralls.io/r/zemit-cms/cms)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/zemit-cms/cms/badges/quality-score.png)](https://scrutinizer-ci.com/g/zemit-cms/cms/)
+[![Latest Stable Version](https://poser.pugx.org/zemit-cms/cms/v/stable.png)](https://packagist.org/packages/zemit-cms/cms)
+[![Total Downloads](https://poser.pugx.org/zemit-cms/cms/downloads.png)](https://packagist.org/packages/zemit-cms/cms)
 
 Zemit App is our default project to start from, this package includes the backend (Zemit Core) and the frontend (Zemit Workspace) with our SDKs.
 
@@ -33,7 +33,7 @@ Zemit Core is using the [Phalcon Framework](https://phalconphp.com) which is wri
 
 If you want to create a new project from scratch, you can run the following commands, replacing `<new-project-name>` by your project name.
 
-    composer create-project zemit-official/cms <new-project-name>;
+    composer create-project zemit-cms/cms <new-project-name>;
     cd <new-project-name>/;
     npm install;
     ng build;
@@ -51,7 +51,7 @@ In order to run Zemit Core, you have to use multiple PHP extensions. We strongly
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/zemit-official/zemit/blob/master/CONTRIBUTING.md) for details.
+See [CONTRIBUTING.md](https://github.com/zemit-cms/zemit/blob/master/CONTRIBUTING.md) for details.
 
 ## External Links
 
@@ -68,4 +68,4 @@ See [CONTRIBUTING.md](https://github.com/zemit-official/zemit/blob/master/CONTRI
 
 Zemit is open source software licensed under the BSD 3-Clause License.
 Copyright © 2017-present, Zemit Team.<br>
-See the [LICENSE.txt](https://github.com/zemit-official/zemit/blob/master/LICENSE.txt) file for more.
+See the [LICENSE.txt](https://github.com/zemit-cms/zemit/blob/master/LICENSE.txt) file for more.

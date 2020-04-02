@@ -494,16 +494,16 @@
             "time": "2018-07-29T20:33:41+00:00"
         },
         {
-            "name": "zemit-official/cms-core",
+            "name": "zemit-cms/cms-core",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/zemit-official/cms-core.git",
+                "url": "https://github.com/zemit-cms/cms-core.git",
                 "reference": "74119e4037baba022e3a75eddb5dad32099add29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zemit-official/cms-core/zipball/74119e4037baba022e3a75eddb5dad32099add29",
+                "url": "https://api.github.com/repos/zemit-cms/cms-core/zipball/74119e4037baba022e3a75eddb5dad32099add29",
                 "reference": "74119e4037baba022e3a75eddb5dad32099add29",
                 "shasum": ""
             },
@@ -553,7 +553,7 @@
                 },
                 {
                     "name": "Contributors",
-                    "homepage": "https://github.com/zemit-official/cms-core/graphs/contributors"
+                    "homepage": "https://github.com/zemit-cms/cms-core/graphs/contributors"
                 }
             ],
             "description": "Pilot your content with golden wings. Zemit, a content-management system built on top of PhalconPHP and AngularJS.",
@@ -564,7 +564,7 @@
                 "framework",
                 "phalcon",
                 "zemit",
-                "zemit-official"
+                "zemit-cms"
             ],
             "time": "2018-12-29T09:17:43+00:00"
         }
@@ -573,7 +573,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "zemit-official/cms-core": 20
+        "zemit-cms/cms-core": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
