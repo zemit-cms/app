@@ -2,12 +2,12 @@
 
 namespace App\Modules\App\Controllers;
 
-class ErrorsController extends AbstractController
+class ErrorController extends AbstractController
 {
     public function initialize()
     {
         parent::initialize();
-        $this->view->pick('errors/index');
+        $this->view->pick('error/index');
     }
     
     public function indexAction()
