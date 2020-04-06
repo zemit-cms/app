@@ -1,4 +1,4 @@
-# Ignore tous les fichiers et sous-répertoire excepté le répertoire parent
+# Ignoring all files and subfolders
 *
 */
 !.gitignore

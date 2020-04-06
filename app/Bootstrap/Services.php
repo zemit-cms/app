@@ -1,19 +1,10 @@
 <?php
-/**
- * This file is part of the Zemit Framework.
- *
- * (c) Zemit Team <contact@zemit.com>
- *
- * For the full copyright and license information, please view the LICENSE.txt
- * file that was distributed with this source code.
- */
 
 namespace App\Bootstrap;
 
 /**
  * Class Services
- * Extends the Zemit Core Services
- *
+ * @package App\Bootstrap
  */
 class Services extends \Zemit\Bootstrap\Services
 {

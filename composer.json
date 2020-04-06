@@ -2,7 +2,7 @@
   "name": "zemit-cms/app",
   "type": "project",
   "description": "Start a new Zemit Project",
-  "keywords": ["framework", "phalcon", "cms", "app", "core", "zemit", "zemit-cms"],
+  "keywords": ["framework", "phalcon", "cms", "app", "core", "zemit", "zemit-cms", "zemit-app"],
   "homepage": "https://www.zemit.com",
   "license": "BSD-3-Clause",
   "authors": [
@@ -23,7 +23,7 @@
     },
     {
       "name": "Contributors",
-      "homepage": "https://github.com/zemit-cms/app/graphs/contributors"
+      "homepage": "https://github.com/zemit-cms/core/graphs/contributors"
     }
   ],
   "support": {
@@ -50,5 +50,5 @@
       "App\\": "app/"
     }
   },
-  "bin":["zemit"]
+  "bin":[]
 }

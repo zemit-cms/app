@@ -1,14 +1,8 @@
 <?php
-/**
- * This file is part of the Zemit Framework.
- *
- * (c) Zemit Team <contact@zemit.com>
- *
- * For the full copyright and license information, please view the LICENSE.txt
- * file that was distributed with this source code.
- */
 
 namespace App\Bootstrap;
+
+use Zemit\Utils\Env;
 
 /**
  * Class Config
@@ -16,21 +10,42 @@ namespace App\Bootstrap;
  */
 class Config extends \Zemit\Bootstrap\Config
 {
-    public function __construct($config = array())
+    public function __construct($config = [])
     {
-        parent::__construct(array(
-            'modules' => array(
-                'frontend' => [
-                    'className' => APP_NAMESPACE . '\\Frontend\\Module',
-                    'path' => APP_PATH . '/Modules/Frontend/Module.php'
+        parent::__construct([
+            'modules' => [
+                'cli' => [
+                    'className' => APP_NAMESPACE . '\\Modules\\Cli\\Module',
+                    'path' => APP_PATH . '/Modules/Cli/Module.php',
                 ],
-            ),
+                'api' => [
+                    'className' => APP_NAMESPACE . '\\Modules\\Api\\Module',
+                    'path' => APP_PATH . '/Modules/Api/Module.php',
+                ],
+                'admin' => [
+                    'className' => APP_NAMESPACE . '\\Modules\\Admin\\Module',
+                    'path' => APP_PATH . '/Modules/Admin/Module.php',
+                ],
+                'app' => [
+                    'className' => APP_NAMESPACE . '\\Modules\\App\\Module',
+                    'path' => APP_PATH . '/Modules/App/Module.php',
+                ],
+            ],
+            'router' => [
+                'defaults' => [
+                    'namespace' => Env::get('ROUTER_DEFAULT_NAMESPACE', 'App\\Modules\\App\\Controllers'),
+                    'module' => Env::get('ROUTER_DEFAULT_MODULE', 'app'),
+                ],
+            ],
             'bootstrap' => [
                 'config' => Config::class,
                 'router' => Router::class,
                 'service' => Services::class,
             ],
-        ));
+        ]);
+        unset($this->modules->frontend);
+        unset($this->modules->backend);
+        unset($this->modules->console);
         if (!empty($config)) {
             $this->merge(new \Phalcon\Config($config));
         }

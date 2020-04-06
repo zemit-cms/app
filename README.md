@@ -1,10 +1,17 @@
 # Zemit App
-[![Travis Build Status](https://secure.travis-ci.org/zemit-cms/cms.png)](http://travis-ci.org/zemit-cms/cms?branch=master)
-[![CircleCI Build Status](https://circleci.com/gh/zemit-cms/cms.png)](https://circleci.com/gh/zemit-cms/cms)
-[![Coverage Status](https://coveralls.io/repos/zemit-cms/cms/badge.png)](https://coveralls.io/r/zemit-cms/cms)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/zemit-cms/cms/badges/quality-score.png)](https://scrutinizer-ci.com/g/zemit-cms/cms/)
-[![Latest Stable Version](https://poser.pugx.org/zemit-cms/cms/v/stable.png)](https://packagist.org/packages/zemit-cms/cms)
-[![Total Downloads](https://poser.pugx.org/zemit-cms/cms/downloads.png)](https://packagist.org/packages/zemit-cms/cms)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/zemit-cms/core/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/zemit-cms/core/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/zemit-cms/core/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/zemit-cms/core/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/zemit-cms/core/badges/build.png?b=master)](https://scrutinizer-ci.com/g/zemit-cms/core/build-status/master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/zemit-cms/core/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+
+[![Daily Downloads](https://poser.pugx.org/zemit-cms/core/d/daily)](https://packagist.org/packages/zemit-cms/core)
+[![Monthly Downloads](https://poser.pugx.org/zemit-cms/core/d/monthly)](https://packagist.org/packages/zemit-cms/core)
+[![Total Downloads](https://poser.pugx.org/zemit-cms/core/downloads)](https://packagist.org/packages/zemit-cms/core)
+
+[![License](https://poser.pugx.org/zemit-cms/core/license)](https://packagist.org/packages/zemit-cms/core)
+[![Latest Stable Version](https://poser.pugx.org/zemit-cms/core/v/stable)](https://packagist.org/packages/zemit-cms/core)
+[![Latest Unstable Version](https://poser.pugx.org/zemit-cms/core/v/unstable)](https://packagist.org/packages/zemit-cms/core)
+[![composer.lock](https://poser.pugx.org/zemit-cms/core/composerlock)](https://packagist.org/packages/zemit-cms/core)
 
 Zemit App is our default project to start from, this package includes the backend (Zemit Core) and the frontend (Zemit Workspace) with our SDKs.
 
@@ -43,7 +50,7 @@ Zemit Core requires multiple PHP extensions. Please use `composer` to make sure 
 * [Facebook](https://facebook.zemit.com)
 
 ## Contributing
-See [CONTRIBUTING.md](https://github.com/zemit-cms/zemit/blob/master/CONTRIBUTING.md) for details.
+See [CONTRIBUTING.md](https://github.com/zemit-cms/core/blob/master/CONTRIBUTING.md) for details.
 
 ## License
 Zemit is open source software licensed under the BSD 3-Clause License.

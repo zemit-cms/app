@@ -5,6 +5,6 @@
     <title>Rewriting failed</title>
 </head>
 <body>
-<p>In order to use Zemit CMS correctly, you must point the your document root path to <?php echo __DIR__; ?>/public/</p>
+<p>You must point the your document root path to <?php echo __DIR__; ?>/public/ and enable rewriting.</p>
 </body>
 </html>
