@@ -17,11 +17,6 @@
       "homepage": "https://www.jturbide.com/"
     },
     {
-      "name": "Danny Coulombe",
-      "email": "contact@dannycoulombe.com",
-      "homepage": "https://www.dannycoulombe.com/"
-    },
-    {
       "name": "Contributors",
       "homepage": "https://github.com/zemit-cms/core/graphs/contributors"
     }
@@ -32,10 +27,8 @@
     "blog": "https://blog.zemit.com/",
     "forum": "https://forum.zemit.com/"
   },
+  "minimum-stability": "dev",
   "require": {
-    "zemit-cms/core": "dev-master"
-  },
-  "require-dev": {
     "zemit-cms/core": "dev-master"
   },
   "extra": {
