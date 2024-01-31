@@ -27,7 +27,6 @@
     "blog": "https://blog.zemit.com/",
     "forum": "https://forum.zemit.com/"
   },
-  "minimum-stability": "dev",
   "require": {
     "zemit-cms/core": "0.3"
   },
