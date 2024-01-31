@@ -29,7 +29,7 @@
   },
   "minimum-stability": "dev",
   "require": {
-    "zemit-cms/core": "dev-master"
+    "zemit-cms/core": "0.3"
   },
   "extra": {
     "installer-paths": {
