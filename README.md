@@ -16,13 +16,13 @@
 Zemit App is our default project to start from, this package includes the backend (Zemit Core) and the frontend (Zemit Workspace) with our SDKs.
 
 ## Contents
-- [Geting Started](#getting-started)
+- [Getting Started](#getting-started)
 - [Requirements](#requirements)
 - [External Links](#external-links)
 - [Contributing](#contributing)
 - [License](#license)
   
-## Get Started
+## Getting Started
 Zemit is using the [Phalcon Framework](https://phalconphp.com). You can use [composer](https://getcomposer.org/) to create a new Zemit App Project.
 
     composer create-project zemit-cms/app:dev-master <new-project-name>;
