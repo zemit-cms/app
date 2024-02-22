@@ -37,6 +37,8 @@
   "apcu-autoloader": true,
   "apcu-autoloader-prefix": "zemit-app-",
   "require": {
+    "php": ">=8.2",
+    "ext-phalcon": ">=5.6",
     "zemit-cms/core": "dev-master"
   },
   "require-dev": {
