@@ -1,15 +1,21 @@
 {
   "name": "zemit-cms/app",
+  "version": "1.0.0",
   "type": "project",
   "description": "Start a new Zemit Project",
-  "keywords": ["framework", "phalcon", "cms", "app", "core", "zemit", "zemit-cms", "zemit-app"],
+  "keywords": ["framework", "phalcon", "cms", "zemit", "zemit-cms", "zemit cms", "zemit cms"],
   "homepage": "https://www.zemit.com",
   "license": "BSD-3-Clause",
   "authors": [
     {
       "name": "Zemit Team",
       "email": "contact@zemit.com",
-      "homepage": "https://www.zemit.com/en/team"
+      "homepage": "https://www.zemit.com/"
+    },
+    {
+      "name": "Nuagerie Team",
+      "email": "contact@nuagerie.com",
+      "homepage": "https://www.nuagerie.com/"
     },
     {
       "name": "Julien Turbide",
@@ -22,14 +28,22 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/zemit-cms/app/issues",
-    "source": "https://github.com/zemit-cms/app",
-    "blog": "https://blog.zemit.com/",
-    "forum": "https://forum.zemit.com/"
+    "issues": "https://github.com/zemit-cms/core/issues",
+    "source": "https://github.com/zemit-cms/core"
   },
   "minimum-stability": "dev",
+  "prefer-stable": true,
+  "optimize-autoloader": true,
+  "apcu-autoloader": true,
+  "apcu-autoloader-prefix": "zemit-app-",
   "require": {
     "zemit-cms/core": "dev-master"
+  },
+  "require-dev": {
+    "phalcon/ide-stubs": "^5.6",
+    "phpspec/phpspec": "^7.5",
+    "squizlabs/php_codesniffer": "^3.8",
+    "phpunit/phpunit": "^10.5"
   },
   "extra": {
     "installer-paths": {
