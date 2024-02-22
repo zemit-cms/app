@@ -25,10 +25,8 @@ Zemit App is our default project to start from, this package includes the backen
 ## Get Started
 Zemit is using the [Phalcon Framework](https://phalconphp.com). You can use [composer](https://getcomposer.org/) to create a new Zemit App Project.
 
-    composer create-project zemit-cms/app <new-project-name>;
+    composer create-project zemit-cms/app:dev-master <new-project-name>;
     cd <new-project-name>/;
-    npm install;
-    ng build;
 
 ## Requirements
 Zemit Core requires multiple PHP extensions. Please use `composer` to make sure that you meet the requirements.
@@ -37,15 +35,11 @@ Zemit Core requires multiple PHP extensions. Please use `composer` to make sure 
 - [PHP](https://www.php.net/) >= 8.2
 - [MySQL](https://www.mysql.com/) >= 8.0
 - [Composer](https://getcomposer.org/download/)
-- [NPM](https://www.npmjs.com/get-npm) >= 12.0
-- [Angular](https://angular.io/guide/quickstart) >= 9.0
-- [TypeScript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) >= 3.1
-- [PhalconPHP](https://docs.phalconphp.com/en/4.0/installation) >= 4.0
+- [PhalconPHP](https://docs.phalconphp.com/en/4.0/installation) >= 5.6
 
 ## External Links
 * [Website](https://www.zemit.com)
 * [Documentation](https://docs.zemit.com)
-* [Support](https://forum.zemit.com)
 * [Twitter](https://twitter.zemit.com)
 * [Facebook](https://facebook.zemit.com)
 
