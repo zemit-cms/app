@@ -1,0 +1,26 @@
+è<?xml version="1.0"?>
+<ruleset name="Zemit">
+    <description>Zemit Coding Standards</description>
+
+    <!-- Show sniff codes in all reports -->
+    <arg value="s"/>
+
+    <!-- Use PSR-2 with some changes -->
+    <rule ref="PSR2">
+        <exclude name="Generic.Files.LineLength"/>
+        <exclude name="PSR2.Methods.MethodDeclaration.Underscore"/>
+        <exclude name="PSR2.Classes.PropertyDeclaration.Underscore"/>
+        <exclude name="PSR2.Classes.ClassDeclaration.CloseBraceAfterBody"/>
+        <exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace"/>
+        <exclude name="Squiz.WhiteSpace.ControlStructureSpacing.SpacingAfterOpen"/>
+        <exclude name="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+    </rule>
+
+    <file>src</file>
+
+    <exclude-pattern>src/Migrations/*</exclude-pattern>
+    <exclude-pattern>private/*</exclude-pattern>
+    <exclude-pattern>storage/*</exclude-pattern>
+    <exclude-pattern>public/storage/*</exclude-pattern>
+    <exclude-pattern>**vendor**</exclude-pattern>
+</ruleset>

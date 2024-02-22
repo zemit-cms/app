@@ -8,4 +8,7 @@
  * file that was distributed with this source code.
  */
 
-require '../index.php';
+use App\Bootstrap;
+
+$loader = require 'loader.php';
+echo (new Bootstrap())->run();

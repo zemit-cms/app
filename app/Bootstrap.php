@@ -10,9 +10,12 @@
 
 namespace App;
 
-use App\Bootstrap\Config;
+use App\Config\Config;
 
 class Bootstrap extends \Zemit\Bootstrap
 {
-    public $config = Config::class;
+    final public function initialize(): void
+    {
+        $this->setConfig(new \App\Config\Config());
+    }
 }

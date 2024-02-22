@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.5/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         executionOrder="depends,defects"
+         beStrictAboutOutputDuringTests="true"
+         failOnRisky="true"
+         failOnWarning="true"
+         colors="true"
+         cacheDirectory=".phpunit.cache"
+         requireCoverageMetadata="false"
+         beStrictAboutCoverageMetadata="true"
+>
+    <testsuites>
+        <testsuite name="default">
+            <directory suffix=".php">tests</directory>
+            <exclude>tests/Unit/AbstractUnit.php</exclude>
+            <exclude>tests/Unit/Provider/ClamavTest.php</exclude>
+        </testsuite>
+        <testsuite name="unit">
+            <directory suffix=".php">tests/Unit</directory>
+            <exclude>tests/Unit/AbstractUnit.php</exclude>
+            <exclude>tests/Unit/Provider/ClamavTest.php</exclude>
+        </testsuite>
+    </testsuites>
+    <coverage>
+        <report>
+            <clover outputFile="./phpunit-clover.xml"/>
+        </report>
+    </coverage>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+    </php>
+    <source>
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+        <exclude>
+            <directory suffix=".php">./tests</directory>
+            <directory suffix=".php">./vendor</directory>
+            <directory suffix=".php">./src/Migrations</directory>
+        </exclude>
+    </source>
+</phpunit>

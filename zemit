@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 /**
  * This file is part of the Zemit Framework.
@@ -8,4 +9,7 @@
  * file that was distributed with this source code.
  */
 
-require '../index.php';
+use App\Bootstrap;
+
+$loader = require 'loader.php';
+echo (new Bootstrap('cli'))->run();

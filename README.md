@@ -34,8 +34,8 @@ Zemit is using the [Phalcon Framework](https://phalconphp.com). You can use [com
 Zemit Core requires multiple PHP extensions. Please use `composer` to make sure that you meet the requirements.
 
 #### Languages & compatibilities
-- [PHP](https://www.php.net/) >= 7.4
-- [MySQL](https://www.mysql.com/) >= 5.7
+- [PHP](https://www.php.net/) >= 8.2
+- [MySQL](https://www.mysql.com/) >= 8.0
 - [Composer](https://getcomposer.org/download/)
 - [NPM](https://www.npmjs.com/get-npm) >= 12.0
 - [Angular](https://angular.io/guide/quickstart) >= 9.0
