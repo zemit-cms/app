@@ -16,9 +16,9 @@
         <exclude name="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
     </rule>
 
-    <file>src</file>
+    <file>app</file>
 
-    <exclude-pattern>src/Migrations/*</exclude-pattern>
+    <exclude-pattern>app/Migrations/*</exclude-pattern>
     <exclude-pattern>private/*</exclude-pattern>
     <exclude-pattern>storage/*</exclude-pattern>
     <exclude-pattern>public/storage/*</exclude-pattern>

@@ -31,12 +31,12 @@
     </php>
     <source>
         <include>
-            <directory suffix=".php">src</directory>
+            <directory suffix=".php">app</directory>
         </include>
         <exclude>
             <directory suffix=".php">./tests</directory>
             <directory suffix=".php">./vendor</directory>
-            <directory suffix=".php">./src/Migrations</directory>
+            <directory suffix=".php">./app/Migrations</directory>
         </exclude>
     </source>
 </phpunit>
