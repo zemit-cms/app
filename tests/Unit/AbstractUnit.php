@@ -38,7 +38,9 @@ abstract class AbstractUnit extends TestCase
      */
     protected function setUp(): void
     {
+        
         $rootDir = dirname(dirname(__DIR__)) . '/';
+        defined('APP_PATH') || define('APP_PATH', $rootDir . 'app/');
         Env::setNames(['.env.testing']);
         
         $loader = new Loader();

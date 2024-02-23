@@ -16,10 +16,6 @@
             <directory suffix=".php">tests</directory>
             <exclude>tests/Unit/AbstractUnit.php</exclude>
         </testsuite>
-        <testsuite name="unit">
-            <directory suffix=".php">tests/Unit</directory>
-            <exclude>tests/Unit/AbstractUnit.php</exclude>
-        </testsuite>
     </testsuites>
     <coverage>
         <report>
