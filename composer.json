@@ -59,5 +59,11 @@
       "App\\": "app/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Unit\\": "tests/Unit",
+      "Zemit\\Tests\\Unit\\": "vendor/zemit-cms/core/tests"
+    }
+  },
   "bin":[]
 }

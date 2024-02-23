@@ -8,14 +8,16 @@
  * file that was distributed with this source code.
  */
 
-namespace App;
+declare(strict_types=1);
+
+namespace Tests\Unit;
 
 use App\Config\Config;
 
-class Bootstrap extends \Zemit\Bootstrap
+class AppTest extends AbstractUnit
 {
-    final public function initialize(): void
+    public function testApp(): void
     {
-        $this->setConfig(new Config());
+        $this->assertInstanceOf(Config::class, $this->getConfig());
     }
 }

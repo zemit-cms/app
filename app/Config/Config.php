@@ -11,6 +11,7 @@ class Config extends \Zemit\Bootstrap\Config
 {
     public function __construct(array $data = [], bool $insensitive = false)
     {
+        $this->defineConst();
         $data = $this->internalMergeAppend([
             
             'app' => [
@@ -61,5 +62,7 @@ class Config extends \Zemit\Bootstrap\Config
                 // add your application acl permissions here
             ],
         ], $data);
+        
+        parent::__construct($data, $insensitive);
     }
 }

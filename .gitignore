@@ -1,5 +1,6 @@
 /.env
 .idea/*
+.phpunit.cache/
 composer.lock
 package-lock.json
 bower_components/
