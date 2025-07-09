@@ -1,8 +1,4 @@
 # Zemit App
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/zemit-cms/core/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/zemit-cms/core/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/zemit-cms/core/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/zemit-cms/core/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/zemit-cms/core/badges/build.png?b=master)](https://scrutinizer-ci.com/g/zemit-cms/core/build-status/master)
-[![Code Intelligence Status](https://scrutinizer-ci.com/g/zemit-cms/core/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 
 [![Daily Downloads](https://poser.pugx.org/zemit-cms/core/d/daily)](https://packagist.org/packages/zemit-cms/core)
 [![Monthly Downloads](https://poser.pugx.org/zemit-cms/core/d/monthly)](https://packagist.org/packages/zemit-cms/core)
@@ -11,9 +7,8 @@
 [![License](https://poser.pugx.org/zemit-cms/core/license)](https://packagist.org/packages/zemit-cms/core)
 [![Latest Stable Version](https://poser.pugx.org/zemit-cms/core/v/stable)](https://packagist.org/packages/zemit-cms/core)
 [![Latest Unstable Version](https://poser.pugx.org/zemit-cms/core/v/unstable)](https://packagist.org/packages/zemit-cms/core)
-[![composer.lock](https://poser.pugx.org/zemit-cms/core/composerlock)](https://packagist.org/packages/zemit-cms/core)
 
-Zemit App is our default project to start from, this package includes the backend (Zemit Core) and the frontend (Zemit Workspace) with our SDKs.
+Zemit App is our default project to start from, this package includes the backend (Zemit Core) and our default skeleton.
 
 ## Contents
 - [Getting Started](#getting-started)
@@ -25,8 +20,9 @@ Zemit App is our default project to start from, this package includes the backen
 ## Getting Started
 Zemit is using the [Phalcon Framework](https://phalconphp.com). You can use [composer](https://getcomposer.org/) to create a new Zemit App Project.
 
-    composer create-project zemit-cms/app:dev-master <new-project-name>;
-    cd <new-project-name>/;
+```bash
+composer create-project zemit-cms/app:dev-master <new-project-name>;
+```
 
 ## Requirements
 Zemit Core requires multiple PHP extensions. Please use `composer` to make sure that you meet the requirements.
