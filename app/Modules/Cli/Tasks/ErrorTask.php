@@ -6,3 +6,4 @@ class ErrorTask extends \Zemit\Modules\Cli\Tasks\ErrorTask
 {
 
 }
+
